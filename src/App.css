@@ -1,0 +1,322 @@
+body{
+  background: url('https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmbhrbdgbsb0d07lk5w4nr4a5');
+  font-family: "IBM Plex Mono", monospace !important;
+  font-style:normal;
+  font-weight: 500 !important;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.heading-color{
+  color:#00FF00;
+}
+
+.row.align-items-center.mb-5.hero-section {
+	margin-top: 150px;
+}
+
+h1 {
+	font-size: 58px;
+}
+
+.form-control:focus {
+	color: #fff;
+	background-color: unset;
+	border-color: #86b7fe;
+	outline: 0;
+	box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
+}
+
+
+.skills {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.list-skills {
+	display: flex;
+	gap: 40px;
+	margin-bottom: 20px;
+}
+
+.mission-headline{
+  margin-bottom: 40px;
+}
+
+.img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.img-project {
+	width: 100%;
+	padding: 20px 0px;
+}
+
+
+.icon-desc-post {
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1{
+  line-height: 0.7;
+}
+
+.form-control.b-input {
+	text-align: left;
+}
+
+.css-zanzjh-MuiPaper-root-MuiAppBar-root {
+	position: unset !important;
+}
+
+.css-1ygil4i-MuiToolbar-root {
+	padding: unset !important;
+}
+
+.main-img-blog{
+	margin-bottom: 100px;
+}
+
+
+.heading-color.jersey-10-regular.text-center.blog-section {
+	margin-bottom: 60px;
+}
+
+.hero-section-blog{
+	position: relative;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-colorPrimary.css-132icwf-MuiButtonBase-root-MuiButton-root {
+	
+}
+
+.name-hero{
+	margin-bottom: 20px;
+}
+
+.blog-title-hero {
+	position: absolute;
+	top: 40%;
+	transform: translate(-50%,-50%);
+	left: 40%;
+	text-transform: uppercase;
+	font-size: 4rem;
+}
+
+.h-img-blog{
+	
+}
+
+.services-section {
+	margin-top: 100px;
+}
+
+
+.subtitle{
+	font-size: 34px;
+	line-height: unset;
+	margin-top: -15px;
+}
+
+.about-section {
+	margin-top: 150.8px;
+	margin-bottom: 150px;
+}
+
+.css-132icwf-MuiButtonBase-root-MuiButton-root {
+	font-family: "IBM Plex Mono", monospace !important;
+}
+
+.css-132icwf-MuiButtonBase-root-MuiButton-root:hover::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url('https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmbhq1sborlz807lktp46wzgx');
+  background-size: cover;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+
+
+.css-132icwf-MuiButtonBase-root-MuiButton-root::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url('https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmbhq1sborlz807lktp46wzgx');
+  background-size: cover;
+  margin-right: 8px;
+  vertical-align: middle;
+  background-image: url('../public/menu-icon.svg');
+}
+
+
+
+.card-post {
+	border: 2px solid #00ed00;
+	padding: 20px;
+}
+
+
+
+
+.css-rizt0-MuiTypography-root{
+	all:unset;
+	  font-family: "Jersey 10", sans-serif !important;
+}
+
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.work-title {
+	text-transform: uppercase;
+}
+
+.work-title {
+	text-transform: uppercase;
+	line-height: 1;
+	font-size: 1.5rem;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.p-color{
+  color: white;
+}
+
+.mt-collab{
+  margin-top: 100px;
+}
+
+.title-blog-card{
+    font-size: 28px;
+    font-family: "Jersey 10", sans-serif !important;
+	text-transform: uppercase;
+}
+
+.footer-headline {
+	font-family: "Jersey 10", sans-serif !important;
+	color: #fff;
+	font-size: 1.4in;
+	line-height: 1.1;
+}
+
+
+.name {
+	font-size: 128px;
+	text-transform: uppercase;
+}
+
+.img-fluid.fireball {
+	width: 300px;
+}
+
+.footer{
+  margin-top: 200px;
+}
+
+
+.name{
+  font-size: 128px;
+}
+
+.b-input{
+  border:none;
+  border-bottom: 2px solid #fff;
+  background: none;
+  border-radius: unset;
+  color:#fff;
+}
+
+.form-control::placeholder {
+	color: rgba(255, 255, 255, 0.75);
+	opacity: 1;
+}
+
+.form-control:focus {
+	color: #fff;
+	background-color:none !important;
+	border-color: #ffffff;
+	outline: 0;
+	box-shadow: unset;
+}
+
+
+
+.mission-img{
+  width: 300px;
+}
+
+.sections {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.works{
+  margin-bottom: 80px;
+}
+
+.css-zanzjh-MuiPaper-root-MuiAppBar-root {
+	color: rgba(0, 0, 0, 0.87);
+	--AppBar-background:unset !important;
+	--AppBar-color: #fff;
+	color: var(--AppBar-color);
+}
+
+.input-group {
+	margin-bottom: 40px;
+	gap: 20px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
