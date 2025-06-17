@@ -19,6 +19,12 @@ body{
   color:#00FF00;
 }
 
+.css-1rod9u0 {
+	--AppBar-background: unset !important;
+	--AppBar-color: #fff;
+	color: var(--AppBar-color);
+}
+
 .btn-send {
 	background-color: #fff;
 	font-family: "Jersey 10", sans-serif !important;
