@@ -19,6 +19,23 @@ body{
   color:#00FF00;
 }
 
+.btn-send {
+	background-color: #fff;
+	font-family: "Jersey 10", sans-serif !important;
+	color: #000;
+	font-size: 20px;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: unset;
+}
+
+.btn-send:hover{
+	background-color:#00FF00;
+	font-family: "Jersey 10", sans-serif !important;
+	transition: ease-in 0.4s;
+}
+
 .row.align-items-center.mb-5.hero-section {
 	margin-top: 150px;
 }
@@ -236,7 +253,7 @@ h1{
 .footer-headline {
 	font-family: "Jersey 10", sans-serif !important;
 	color: #fff;
-	font-size: 1.4in;
+	font-size: 8vw;
 	line-height: 1.1;
 }
 
@@ -244,6 +261,19 @@ h1{
 .name {
 	font-size: 128px;
 	text-transform: uppercase;
+}
+
+.blog-column{
+	margin-bottom: 40px;
+}
+
+.year-of-works {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+a {
+	color: #00ed00;
 }
 
 .img-fluid.fireball {
@@ -319,4 +349,105 @@ h1{
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+/*Mobile*/
+
+@media (max-width: 720px) {
+
+
+	body{
+		overflow-x:hidden ;
+	}
+ .image-hero-section-character {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+}
+
+ .image-hero-section-character img{
+	width: 80%;
+ }
+
+ .about-section {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.mission-img {
+	width: 50%;
+	margin-top: 87px;
+	margin-bottom: 20px;
+}
+
+
+.mission-character{
+	display: flex;
+	justify-content: center;
+}
+
+.mission-headline {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.img-fluid.fireball {
+	width: 100%;
+	display: none;
+}
+
+.card-post {
+	
+	margin-bottom: 30px;
+}
+
+.footer-headline {
+	
+	font-size: 14vw;
+	
+}
+.row.align-items-center.mb-5.hero-section {
+	margin-top: 0px;
+}
+
+.main-img-blog {
+	margin-bottom: 100px;
+	display: none;
+}
+
+.hero-section-blog {
+	background: url('https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmb6hcf8izrgj07lqh6bekifh');
+	background-repeat: no-repeat;
+	height: 350px;
+	background-position: center;
+	display: flex;
+	padding: 20px;
+}
+
+.blog-title-hero {
+	 position: unset; 
+	 transform:unset; 
+	 font-size: 3rem; 
+}
+
+.content-header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.heading-color.jersey-10-regular.text-center.blog-section {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.year-of-works{
+
+}
+
+
 }

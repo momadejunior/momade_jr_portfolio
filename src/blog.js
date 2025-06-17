@@ -46,7 +46,7 @@ export default function Blog() {
             <div className='hero-section-blog'>
               <img className='img-fluid main-img-blog' src='https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmb6hcf8izrgj07lqh6bekifh' />
 
-              <div className="">
+              <div className="content-header">
                 <h1 className='heading-color jersey-10-regular blog-title-hero'>A importância de um UI/UX
                   designer numa equipa
                   de desenvolvedores</h1>

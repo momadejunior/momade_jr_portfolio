@@ -37,13 +37,13 @@ export default function Home(){
           />
           <p className="p-color subtitle" ref={el}/>
          
-          <h5 className="p-color">Maputo 2022</h5>
+          <h5 className="p-color year-of-works">Maputo 2022</h5>
         </div>
 
         <div className="col-md-2">
         </div>
 
-        <div className="col-md-4">
+        <div className="col-md-4 image-hero-section-character">
           <img 
             src="https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmbhq6jhero6807lkkpfljtf0" 
             alt="spaceship" 
@@ -56,12 +56,9 @@ export default function Home(){
 <section className='about-section'>
 <div className="row align-items-center">
         <div className="col-md-6">
-          <h1 className="heading-color jersey-10-regular">Webdesigner from the bottom</h1>
+          <h1 className="heading-color jersey-10-regular">Webdesigner Construído<br/> do Zero</h1>
           <p className="p-color">
-            Momade Júnior is a Mozambican self-taught Graphic Designer and Web Developer with 7 years of experience.
-            He dedicates himself to developing flowcharts, sitemaps, and designing web and app interfaces that provide
-            an excellent user experience through site navigability, information arrangement, use of colors, images,
-            videos, and overall information architecture.
+            Momade Júnior é um designer gráfico e desenvolvedor web autodidata Moçambicano com 7 anos de experiência. Ele se dedica ao desenvolvimento de fluxogramas, mapas de sites e ao design de interfaces para web e aplicativos que proporcionam uma excelente experiência ao usuário por meio da navegabilidade do site, organização das informações, uso de cores, imagens, vídeos e arquitetura geral da informação.
           </p>
         </div>
 
@@ -84,7 +81,7 @@ export default function Home(){
     <div className='container'>
       <div className='row'>
       
-          <div className="col-md-4">
+          <div className="col-md-4 mission-character">
           <img 
             src="https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmb6duvujxzgc07my2p1uowh7" 
             alt="spaceship" 

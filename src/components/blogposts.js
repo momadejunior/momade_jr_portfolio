@@ -45,7 +45,7 @@ export default function BlogPost() {
         <div className="row">
           {blogs.map((post) => (
             <div key={post.id} className="col-md-4">
-              <div>
+              <div className="blog-column">
                 <div className="icon-desc-post">
                   <div>
                     {new Date(post.createdAt).toLocaleDateString("pt-PT", {
