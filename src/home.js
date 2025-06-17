@@ -27,7 +27,7 @@ export default function Home(){
 
     return(
         <>
-     <div className="container">
+     <div className="container hero-section-container">
       <div className="row align-items-center mb-5 hero-section">
         <div className="col-md-6">
           <img 
