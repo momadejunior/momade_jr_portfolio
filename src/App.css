@@ -25,6 +25,17 @@ body{
 	color: var(--AppBar-color);
 }
 
+.css-132icwf-MuiButtonBase-root-MuiButton-root:hover::before {
+	content: '';
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background-image: url('https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmbhq1sborlz807lktp46wzgx');
+	background-size: cover;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
 .btn-send {
 	background-color: #fff;
 	font-family: "Jersey 10", sans-serif !important;
