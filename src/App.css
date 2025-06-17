@@ -26,7 +26,9 @@ body{
 }
 
 .css-3ub2o3 {
-	font-family: unset;
+
+	
+	font-family: unset !important;
 }
 
 .css-132icwf-MuiButtonBase-root-MuiButton-root:hover::before {
