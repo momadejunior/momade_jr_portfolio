@@ -26,10 +26,11 @@ body{
 }
 
 .css-3ub2o3 {
-	font-family: unset !important;
+	font-family: inherit !important;
+	font-weight: bold !important;
 }
 
-.css-132icwf-MuiButtonBase-root-MuiButton-root:hover::before {
+.css-3ub2o3::before {
 	content: '';
 	display: inline-block;
 	width: 14px;
