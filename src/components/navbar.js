@@ -12,9 +12,9 @@ const drawerWidth = 240;
 const navItems = [
   { label: 'Home', path: '/' },
   { label: 'Blog', path: '/blog' },
- 
   { label: 'Serviços', path: '/service' },
   { label: 'Contacto', path: '/contact' },
+  
 ];
 
 function Navbar(props) {
@@ -28,11 +28,13 @@ function Navbar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
+
+        <Link to={'/'}>
        <img
               src="https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmb6fdt88yg7t07mylyhxdy5n"
               alt="Logo"
               height="40"
-            />
+            /></Link>
       </Typography>
       <Divider />
       <List>
@@ -66,11 +68,12 @@ function Navbar(props) {
             variant="h6"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
+            <a href='/'>
             <img
               src="https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmb6fdt88yg7t07mylyhxdy5n"
               alt="Logo"
               height="40"
-            />
+            /></a>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (

@@ -8,6 +8,7 @@ import FullBlogPostDetails from './components/blogPostDetail';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Services from './services';
 import WorkFullDetails from './workFullDetails';
+import ContactForm from './contact';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/works" element={<Works/>} />
         <Route path="/works/:id" element={<WorkFullDetails />} />
         <Route path='/Service' element={<Services/>}/>
+        <Route path='/contact' element={<ContactForm/>}/>
+
       </Routes>
   </>
   );

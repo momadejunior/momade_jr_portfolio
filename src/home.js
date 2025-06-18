@@ -38,6 +38,7 @@ export default function Home(){
           <p className="p-color subtitle" ref={el}/>
          
           <h5 className="p-color year-of-works">Maputo 2022</h5>
+          <a href='https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmc0hbiwv36zq07n1qe7vcytt' target='_blank' download={true}><h5 className="p-color">UI/UX Portfolio</h5></a>
         </div>
 
         <div className="col-md-2">

@@ -39,7 +39,6 @@ export default function BlogPost() {
 
   return (
     <>
-
       <div className="container">
         <h1 className="heading-color jersey-10-regular text-center blog-section">UIBLOG</h1>
         <div className="row">
@@ -64,10 +63,14 @@ export default function BlogPost() {
                     className="img-project"
                   />
                 </div>
-                <div className="p-color">{post.excerpt}</div>
-
-                {/* Link to blog post details page */}
-                <li>
+                <div className="p-color">
+  {post.excerpt
+    ? post.excerpt.length > 100
+      ? `${post.excerpt.slice(0, 100)}...`
+      : post.excerpt
+    : "Sem resumo disponível"}
+</div>
+                <li className="btn-post-read">
                   <Link to={`/blog/${post.id}`}>Ver post</Link>
                 </li>
               </div>

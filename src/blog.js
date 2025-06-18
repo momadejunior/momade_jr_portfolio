@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';  // <-- import Link
+import FeaturedPost from './post_hero_section';
 
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
@@ -40,23 +41,9 @@ export default function Blog() {
   return (
     <>
 
-      <div className='container'>
-        <div className='row'>
-          <div className='col-md-12'>
-            <div className='hero-section-blog'>
-              <img className='img-fluid main-img-blog' src='https://us-west-2.graphassets.com/cm3zv6ptf0nh907n243tmgohi/cmb6hcf8izrgj07lqh6bekifh' />
+      
 
-              <div className="content-header">
-                <h1 className='heading-color jersey-10-regular blog-title-hero'>A importância de um UI/UX
-                  designer numa equipa
-                  de desenvolvedores</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
+    <FeaturedPost/>
       <div className="container">
         <h1 className="heading-color jersey-10-regular text-center blog-section">UIBLOG</h1>
         <div className="row">
@@ -84,7 +71,7 @@ export default function Blog() {
                 <div className="p-color">{post.excerpt}</div>
 
                 {/* Link to blog post details page */}
-                <li>
+                <li className="btn-post-read">
                   <Link to={`/blog/${post.id}`}>Ver post</Link>
                 </li>
               </div>
